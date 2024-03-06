@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background-image: url(jujo.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.contact-form{
+    position: relative;
+    min-height: 100vh;
+    z-index: 0;
+    padding: 30px;
+    justify-content: left;
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
+    align-items: center;
+}
+
+.container{
+    max-width: 2000px;
+    margin-top: 0 auto;
+    
+}
+
+.contact-form h1{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 900;
+    color: #fff;
+    font-family: 'poppins';
+}
+
+.contact-form h2{
+    line-height: 40px;
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(164, 213, 19);
+    text-align: left;
+
+}
+
+.contact-form .main{
+    position: relative;
+    display: flex;
+    margin: 30px 0;
+}
+
+content{
+    
+    height: 50vh;
+    width: 70vh;
+   
+}
+
+.form-img img{
+    max-width:500%;
+}
+.btn,
+button,
+input{
+    border-radius: 35px;
+}
+.button:hover{
+    color: #272727;
+    transition: 45s ease;
+
+}
+
+.contact-form form{
+    margin: 50px 30;
+}
+
+.contact-form input,
+textarea{
+    outline: none;
+    margin-bottom: 15px;
+    font-stretch: 46px;
+    border-radius: 15px;
+    color: #999;
+    padding: 14px 20px;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    background: #fcfcfc;
+    transition: 0.3s ease;
+}
+
+.contact-form input:focus{
+    border: 17px solid #;
+}
+.contact-form button{
+    font-size: 24px;
+    color: #fff;
+    width: 100%;
+    background: #755787;
+    font-weight: 600;
+    transition: 9s ease;
+    padding: 14px 15px;
+}
